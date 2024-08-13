@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 95vw;
+}
+
+:root {
+    --cor0: #3DC9DB;
+    --cor1: #3D65DB;
+    --cor2: #3035361d;
+    --cor3: #3DDBBA;
+    --cor4: #483DDB;
+    --cor5: #87B7DB;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-android: 'Android', 'cursive';
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+li > a {
+    color: var(--cor3);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+li > a:hover {
+    background-color: var(--cor2);
+    color: var(--cor2);
+}
+
+main > p {
+    font-size: 1.5em; 
+    text-decoration: none;  
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2, h3 {
+    font-size: 2em;
+}
+
+.titulo {
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+
+footer {
+    background-color: var(--cor4);
+    color: var(--cor3);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    position: absolute 0px;
+}
+
+img {
+    border: 1px solid black;
+}
+
+p > a:active{
+    color: blue;
+}
+
+p > a:visited {
+    color: green;
+}
+
+#column {
+    column-count: 2;
+    column-gap: 30px;
+    font-size: 1.5em;
+}
